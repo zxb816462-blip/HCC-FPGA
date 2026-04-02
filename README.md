@@ -35,6 +35,8 @@ Transformer 模型开源的 HLS / Verilog 实现
 - 器件：U250
 - 备注：只有四层，量化计算不严谨
 
+![DRViT布局布线情况](DRViT.png)
+
 #### 说明
 - 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
 - 学习 Verilog 可以尝试复现 `llama-FPGA`
