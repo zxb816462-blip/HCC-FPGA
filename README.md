@@ -2,6 +2,15 @@
 #### 介绍
 Transformer 模型开源的 HLS / Verilog 实现
 
+#### 说明
+- 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
+- 学习 Verilog 可以尝试复现 `llama-FPGA`
+- 学习DRViT，DRViT没有开源仓库，找我要源码
+
+#### 关于Vitis、Vivado
+- 个人安装： 如果个人 PC 满足运行要求，可自行安装 Vitis、Vivado，并按需下载许可证及 U250、VCK190 等器件支持包。
+- 服务器支持： 如果个人 PC 性能或环境受限，服务器端已提供预装好的 Vitis、Vivado 环境，可直接使用。
+
 ## 1. Edge-MoE
 - 语言：HLS 实现 ViT（混合专家）
 - 仓库地址：https://github.com/sharc-lab/Edge-MoE
@@ -36,12 +45,3 @@ Transformer 模型开源的 HLS / Verilog 实现
 - 备注：只有四层，量化计算不严谨
 
 ![DRViT布局布线情况](DRViT.png)
-
-#### 说明
-- 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
-- 学习 Verilog 可以尝试复现 `llama-FPGA`
-- 学习DRViT，DRViT没有开源仓库，找我要源码
-
-#### 关于Vitis、Vivado
-- 个人安装： 如果个人 PC 满足运行要求，可自行安装 Vitis、Vivado，并按需下载许可证及 U250、VCK190 等器件支持包。
-- 服务器支持： 如果个人 PC 性能或环境受限，服务器端已提供预装好的 Vitis、Vivado 环境，可直接使用。
