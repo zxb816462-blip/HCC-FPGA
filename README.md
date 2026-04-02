@@ -1,2 +1,34 @@
 # HCC-FPGA
-开源的Transformer HLS/verilog实现
+#### 介绍
+Transformer 模型开源的 HLS / Verilog 实现
+
+## 1. Edge-MoE
+- 语言：HLS 实现 ViT（混合专家）
+- 仓库地址：https://github.com/sharc-lab/Edge-MoE
+- 复现情况：可以生成 IP 核
+- 器件：ZCU102
+- 备注：缺少 PS 端代码
+
+## 2. llama-FPGA
+- 语言：Verilog
+- 仓库地址：https://github.com/adamgallas/llama-fpga
+- 复现情况：暂未复现
+- 器件：KV260、ZCU104、U250
+
+## 3. HG-PIPE
+- 语言：HLS 实现 ViT
+- 仓库地址：https://github.com/hguq/HG-PIPE
+- 复现情况：可以布局布线
+- 器件：VCK190
+
+![HGPIPE布局布线情况](HGPIPE.png)
+
+## 4. gemm_hls
+- 语言：HLS 实现矩阵乘法
+- 仓库地址：https://github.com/spcl/gemm_hls
+- 复现情况：暂未复现
+- 器件：U250
+
+#### 说明
+- 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
+- 学习 Verilog 可以尝试复现 `llama-FPGA`
