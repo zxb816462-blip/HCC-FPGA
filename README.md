@@ -5,7 +5,7 @@ Transformer 模型开源的 HLS / Verilog 实现
 #### 说明
 - 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
 - 学习 Verilog 可以尝试复现 `llama-FPGA`
-- 学习DRViT，DRViT没有开源仓库，找我要源码
+- 学习DRViT，由于DRViT没有开源仓库，这里就不上传源码了，可以找我拿源码
 
 #### 关于Vitis、Vivado
 - 个人安装： 如果个人 PC 满足运行要求，可自行安装 Vitis、Vivado，并按需下载许可证及 U250、VCK190 等器件支持包。
