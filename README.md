@@ -32,3 +32,7 @@ Transformer 模型开源的 HLS / Verilog 实现
 #### 说明
 - 学习 HLS 可以复现 `gemm_hls`、`HG-PIPE`
 - 学习 Verilog 可以尝试复现 `llama-FPGA`
+
+#### 关于Vitis、Vivado
+- 个人安装： 如果个人 PC 满足运行要求，可自行安装 Vitis、Vivado，并按需下载许可证及 U250、VCK190 等器件支持包。
+- 服务器支持： 如果个人 PC 性能或环境受限，服务器端已提供预装好的 Vitis、Vivado 环境，可直接使用。
